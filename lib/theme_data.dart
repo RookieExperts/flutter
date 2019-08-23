@@ -34,7 +34,7 @@ class _ThemeDataPage extends State<ThemePage>{
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("自定义主题"),
+        title: new Text("自定义主"),
 
       ),
       body: new Center(
