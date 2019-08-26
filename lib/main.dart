@@ -7,6 +7,7 @@ import 'package:flutter0822_01/routes.dart';
 import 'package:flutter0822_01/hello_world.dart';
 import 'package:flutter0822_01/theme_data.dart';
 import 'package:flutter0822_01/thirdpak.dart';
+import 'package:flutter0822_01/login_page.dart';
 
 void main() => runApp(BlocProvider(child: MyApp()));
 
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
           'helloworld':(BuildContext context) => new HomePage(),
           'themedata':(BuildContext context) => new ThemePage(),
           'thirdpak':(BuildContext context) => new ThirdPack(),
+          'loginpage':(BuildContext context) => new LoginPage(),
         },
     );
   }

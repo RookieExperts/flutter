@@ -28,11 +28,13 @@ dependencies:
   url_launcher: ^4.0.1
   rxdart: ^0.22.1
   flutter_screenutil: ^0.5.3
+  groovin_material_icons: ^1.1.6
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
 
 
