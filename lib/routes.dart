@@ -13,6 +13,7 @@ class Routes extends StatelessWidget{
     listData.add(ListItem("使用主题", "themedata", Icons.grade));
     listData.add(ListItem("第三方包使用示例","thirdpak",Icons.grade));
     listData.add(ListItem("登录页面", "loginpage", Icons.grade));
+    listData.add(ListItem("天气", "weather", Icons.grade));
   }
   Widget build(BuildContext context){
     initData(context);

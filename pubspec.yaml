@@ -29,6 +29,7 @@ dependencies:
   rxdart: ^0.22.1
   flutter_screenutil: ^0.5.3
   groovin_material_icons: ^1.1.6
+  http: ^0.12.0
 
 
 dev_dependencies:
@@ -58,6 +59,7 @@ flutter:
   assets:
   - lib/locale/i18n_en.json
   - lib/locale/i18n_zh.json
+  - images/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
