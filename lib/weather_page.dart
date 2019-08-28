@@ -24,7 +24,7 @@ class WeatherState extends State<WeatherWidget>{
   }
 
   Future<WeatherData> _fetchWeather() async{
-    final response = await http.get('https://www.tianqiapi.com/api/?version=v1&cityid=101110101&appid=1001&appsecret=5566');
+    final response = await http.get('https://www.tianqiapi.com/api/?version=v1&cityid=101120101&appid=1001&appsecret=5566');
     //解决中文乱码
     Utf8Decoder decode = new Utf8Decoder();
 
