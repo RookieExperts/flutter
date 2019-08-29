@@ -14,6 +14,7 @@ class Routes extends StatelessWidget{
     listData.add(ListItem("第三方包使用示例","thirdpak",Icons.grade));
     listData.add(ListItem("登录页面", "loginpage", Icons.grade));
     listData.add(ListItem("天气", "weather", Icons.grade));
+    listData.add(ListItem("第一个Flutter", "first", Icons.grade));
   }
   Widget build(BuildContext context){
     initData(context);

@@ -9,6 +9,7 @@ import 'package:flutter0822_01/theme_data.dart';
 import 'package:flutter0822_01/thirdpak.dart';
 import 'package:flutter0822_01/login_page.dart';
 import 'package:flutter0822_01/weather_page.dart';
+import 'package:flutter0822_01/first_flutter.dart';
 
 void main() => runApp(BlocProvider(child: MyApp()));
 
@@ -46,6 +47,7 @@ class MyApp extends StatelessWidget {
           'thirdpak':(BuildContext context) => new ThirdPack(),
           'loginpage':(BuildContext context) => new LoginPage(),
           'weather':(BuildContext context) => new WeatherWidget(),
+          'first':(_) => new CwmsWidget(),
         },
     );
   }
